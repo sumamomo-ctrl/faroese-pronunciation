@@ -1,0 +1,10 @@
+{
+  "name": "faroese-pronunciation-thai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ฝึกออกเสียงภาษาแฟโรสำหรับคนไทยในหมู่เกาะแฟโร — Faroese pronunciation trainer for Thai speakers (VoisIT TTS/ASR)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED"
+}

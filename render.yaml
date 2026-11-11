@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: faroese-pronunciation
+    runtime: node
+    plan: free
+    region: frankfurt
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: VOISIT_API_KEY
+        sync: false

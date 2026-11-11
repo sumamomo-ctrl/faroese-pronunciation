@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b4f8a" />
+  <title>ฝึกออกเสียงภาษาแฟโร</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="flag">🇫🇴</span><div><strong>ฝึกออกเสียงภาษาแฟโร</strong><small>สำหรับคนไทยในหมู่เกาะแฟโร</small></div></div>
+    <label class="voice-select">เสียง
+      <select id="voice">
+        <option value="simun">Símun (ชาย)</option>
+        <option value="elin">Elin (หญิง)</option>
+        <option value="drongur">Drongur (เด็กชาย)</option>
+        <option value="genta">Genta (เด็กหญิง)</option>
+      </select>
+    </label>
+  </header>
+  <div id="mode-banner" class="banner" hidden></div>
+  <main id="app"><p class="loading">กำลังโหลดบทเรียน…</p></main>
+
+  <!-- Practice bottom sheet -->
+  <div id="sheet-backdrop" class="backdrop" hidden></div>
+  <section id="sheet" class="sheet" hidden aria-modal="true" role="dialog" aria-labelledby="sheet-target">
+    <div class="sheet-handle"></div>
+    <button class="sheet-close" id="sheet-close" aria-label="ปิด">✕</button>
+    <p class="sheet-label">ฝึกพูดประโยคนี้</p>
+    <h2 id="sheet-target" class="fo big"></h2>
+    <p id="sheet-reading" class="reading"></p>
+    <p id="sheet-meaning" class="meaning"></p>
+
+    <div class="compare-row">
+      <div class="compare-col">
+        <span class="col-title">เสียงต้นฉบับ</span>
+        <div class="btn-row">
+          <button class="btn" id="sheet-ref-normal">🔊 ปกติ</button>
+          <button class="btn" id="sheet-ref-slow">🐢 ช้า</button>
+        </div>
+      </div>
+      <div class="compare-col">
+        <span class="col-title">เสียงของคุณ</span>
+        <div class="btn-row">
+          <button class="btn" id="sheet-own-play" disabled>▶️ ฟังเสียงตัวเอง</button>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn rec" id="sheet-record">🎙️ กดเพื่อเริ่มอัดเสียง</button>
+    <p id="sheet-rec-status" class="muted center"></p>
+
+    <div id="sheet-typed" class="typed" hidden>
+      <label for="typed-input">โหมดสาธิต: ยังไม่มีระบบฟังเสียงอัตโนมัติ ลองพิมพ์สิ่งที่คุณพูด แล้วกด “ตรวจ” เพื่อดูตัวอย่างการเปรียบเทียบ</label>
+      <div class="typed-row"><input id="typed-input" type="text" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="เช่น hvat er klokkan" /><button class="btn primary" id="typed-check">ตรวจ</button></div>
+    </div>
+
+    <div id="sheet-result" class="result" hidden></div>
+    <p class="honest">ℹ️ ระบบนี้ตรวจว่า <b>เครื่องฟังเสียงพูดของคุณเข้าใจหรือไม่</b> (แปลงเสียงเป็นข้อความแล้วเทียบทีละคำ) ไม่ใช่การให้คะแนนสำเนียงอย่างละเอียด คำที่เป็นสีแดงอาจเกิดจากเสียงรบกวนหรือไมค์ก็ได้ ควรฟังเทียบกับต้นฉบับด้วยหูของคุณเองเสมอ</p>
+  </section>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <script src="/app.js"></script>
+</body>
+</html>
