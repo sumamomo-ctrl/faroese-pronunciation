@@ -4,6 +4,8 @@
 
 A mobile-first prototype web app for Thai people living in the Faroe Islands to practise Faroese pronunciation, using the VoisIT text-to-speech and speech-to-text API through a tiny backend proxy (the API key never reaches the browser).
 
+Feasibility test of free Faroese TTS/ASR models versus VoisIT: [docs/free-models-test/REPORT.md](docs/free-models-test/REPORT.md).
+
 ---
 
 ## ภาษาไทย
