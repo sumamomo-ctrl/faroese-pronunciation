@@ -1,5 +1,16 @@
 {
   "lessons": [
-    { "id": "lesson-09", "file": "lesson-09.json", "number": 9, "title": "เวลาและวันในสัปดาห์" }
+    {
+      "id": "lesson-08",
+      "file": "lesson-08.json",
+      "number": 8,
+      "title": "อาหารและเครื่องดื่ม"
+    },
+    {
+      "id": "lesson-09",
+      "file": "lesson-09.json",
+      "number": 9,
+      "title": "เวลาและวันในสัปดาห์"
+    }
   ]
 }

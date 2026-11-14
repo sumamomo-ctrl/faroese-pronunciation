@@ -1,0 +1,287 @@
+{
+  "id": "lesson-08",
+  "number": 8,
+  "title": "อาหารและเครื่องดื่ม",
+  "emoji": "🍽️",
+  "level": "ระดับเริ่มต้น",
+  "duration": "5 นาที",
+  "date": "2026-11-14",
+  "sentences": [
+    {
+      "id": "s1",
+      "fo": "Eg vil hava vatn.",
+      "en": "I want water.",
+      "th_reading": "เอ็ก วิล ฮา-วา วัทน์",
+      "th_meaning": "ฉันต้องการน้ำ",
+      "words": [
+        {
+          "fo": "eg",
+          "th_reading": "เอ็ก",
+          "th_meaning": "ฉัน"
+        },
+        {
+          "fo": "vil",
+          "th_reading": "วิล",
+          "th_meaning": "ต้องการ"
+        },
+        {
+          "fo": "hava",
+          "th_reading": "ฮา-วา",
+          "th_meaning": "มี / เอา"
+        },
+        {
+          "fo": "vatn",
+          "th_reading": "วัทน์",
+          "th_meaning": "น้ำ"
+        }
+      ],
+      "blend": [
+        "Eg → เอ็ก",
+        "vil → วิล",
+        "ha-va → ฮา-วา",
+        "vatn → วัทน์",
+        "ผสม: Eg + vil + ha-va + vatn"
+      ],
+      "grammar": [
+        "Eg vil hava + สิ่งของ ใช้บอกสิ่งที่เราต้องการ เช่น อาหารหรือเครื่องดื่ม",
+        "ประโยคนี้บอกความต้องการตรง ๆ หากต้องการขออย่างสุภาพ ใช้ Kann eg fáa…?"
+      ],
+      "warning": "vatn มีพยัญชนะท้ายที่ไม่ตรงกับการอ่านแบบภาษาอังกฤษ คำอ่านไทยเป็นเพียงแนวทางเบื้องต้น",
+      "word_warnings": {
+        "vatn": "คำอ่าน วัทน์ เป็นเพียงการประมาณ ควรฟังพยัญชนะท้ายจากเสียงจริง",
+        "eg": "คำอ่าน เอ็ก เป็นแนวทางเบื้องต้น เสียงท้ายอาจลดลงในคำพูดต่อเนื่อง"
+      }
+    },
+    {
+      "id": "s2",
+      "fo": "Kann eg fáa breyð?",
+      "en": "Can I have some bread?",
+      "th_reading": "คัน เอ็ก ฟัว เบรย์",
+      "th_meaning": "ฉันขอขนมปังได้ไหม",
+      "words": [
+        {
+          "fo": "kann",
+          "th_reading": "คัน",
+          "th_meaning": "สามารถ / ได้ไหม"
+        },
+        {
+          "fo": "eg",
+          "th_reading": "เอ็ก",
+          "th_meaning": "ฉัน"
+        },
+        {
+          "fo": "fáa",
+          "th_reading": "ฟัว",
+          "th_meaning": "ได้รับ / เอา"
+        },
+        {
+          "fo": "breyð",
+          "th_reading": "เบรย์",
+          "th_meaning": "ขนมปัง"
+        }
+      ],
+      "blend": [
+        "Kann → คัน",
+        "eg → เอ็ก",
+        "fáa → ฟัว",
+        "breyð → เบรย์",
+        "ผสม: Kann + eg + fáa + breyð"
+      ],
+      "grammar": [
+        "Kann eg fáa + สิ่งของ? เป็นคำถามสำหรับขอสิ่งของ ใช้ได้ทั้งร้านอาหารและชีวิตประจำวัน"
+      ],
+      "warning": "ð ใน breyð โดยทั่วไปไม่ได้ออกเสียงเป็น ด แบบไทย และ á ใน fáa ไม่ใช่เสียง อา ธรรมดา",
+      "word_warnings": {
+        "breyð": "ð โดยทั่วไปไม่ได้อ่านเป็น ด แบบไทย",
+        "fáa": "เสียง á ไม่ใช่ อา ธรรมดา คำอ่าน ฟัว เป็นการประมาณ"
+      }
+    },
+    {
+      "id": "s3",
+      "fo": "Tað smakkar væl.",
+      "en": "It tastes good.",
+      "th_reading": "แทอ สมัค-คาร์ แวล",
+      "th_meaning": "มันรสชาติดี / อร่อย",
+      "words": [
+        {
+          "fo": "tað",
+          "th_reading": "แทอ",
+          "th_meaning": "มัน / สิ่งนั้น"
+        },
+        {
+          "fo": "smakkar",
+          "th_reading": "สมัค-คาร์",
+          "th_meaning": "มีรสชาติ"
+        },
+        {
+          "fo": "væl",
+          "th_reading": "แวล",
+          "th_meaning": "ดี"
+        }
+      ],
+      "blend": [
+        "Tað → แทอ",
+        "smak-kar → สมัค-คาร์",
+        "væl → แวล",
+        "ผสม: Tað + smak-kar + væl"
+      ],
+      "grammar": [
+        "smakkar เป็นกริยาปัจจุบันของ smakka",
+        "væl ขยายว่าดี รวมกันหมายถึงมีรสชาติดี"
+      ],
+      "warning": "ð ใน Tað ไม่ได้อ่านเป็น ด ชัด ๆ และ æ ใน væl ไม่เหมือนสระแอไทยทุกประการ",
+      "word_warnings": {
+        "tað": "อย่าอ่าน ð เป็น ด ชัด ๆ",
+        "væl": "เสียง æ ไม่เหมือนแอไทยทุกประการ"
+      }
+    }
+  ],
+  "dialogue": {
+    "title": "บทสนทนากับเพื่อน",
+    "lines": [
+      {
+        "speaker": "A",
+        "fo": "Eg vil hava vatn.",
+        "th_reading": "เอ็ก วิล ฮาวา วัทน์",
+        "th_meaning": "ฉันต้องการน้ำ"
+      },
+      {
+        "speaker": "B",
+        "fo": "Kann eg fáa breyð?",
+        "th_reading": "คัน เอ็ก ฟัว เบรย์",
+        "th_meaning": "ฉันขอขนมปังได้ไหม"
+      },
+      {
+        "speaker": "A",
+        "fo": "Tað smakkar væl.",
+        "th_reading": "แทอ สมัค-คาร์ แวล",
+        "th_meaning": "อร่อยดีนะ"
+      },
+      {
+        "speaker": "B",
+        "fo": "Eg fari heim nú.",
+        "th_reading": "เอ็ก ฟา-ริ ไฮม์ นู",
+        "th_meaning": "ฉันจะกลับบ้านตอนนี้",
+        "note": "ทบทวนบทที่ 7"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "question": "ถ้าอยากขอขนมปัง ควรพูดประโยคใด?",
+      "fo": "Kann eg fáa breyð?",
+      "choices": [
+        "Tað smakkar væl.",
+        "Kann eg fáa breyð?",
+        "Eg fari heim nú."
+      ],
+      "answer": 1
+    },
+    {
+      "question": "คำว่า vatn หมายถึงอะไร?",
+      "fo": "Eg vil hava vatn.",
+      "choices": [
+        "น้ำ",
+        "ขนมปัง",
+        "อาหาร"
+      ],
+      "answer": 0
+    }
+  ],
+  "vocab": [
+    {
+      "fo": "matur",
+      "th_meaning": "อาหาร"
+    },
+    {
+      "fo": "drekka",
+      "th_meaning": "ดื่ม / เครื่องดื่ม"
+    },
+    {
+      "fo": "vatn",
+      "th_meaning": "น้ำ"
+    },
+    {
+      "fo": "breyð",
+      "th_meaning": "ขนมปัง"
+    },
+    {
+      "fo": "fáa",
+      "th_meaning": "ได้รับ"
+    },
+    {
+      "fo": "smakka",
+      "th_meaning": "ชิม / มีรสชาติ"
+    },
+    {
+      "fo": "væl",
+      "th_meaning": "ดี"
+    },
+    {
+      "fo": "takk",
+      "th_meaning": "ขอบคุณ"
+    }
+  ],
+  "homework": [
+    {
+      "type": "read",
+      "text": "ฝึกพูดทั้ง 3 ประโยคโดยไม่ดูคำอ่านไทย เริ่มช้า ๆ แล้วลองพูดด้วยจังหวะธรรมชาติ"
+    },
+    {
+      "type": "read",
+      "fo": "Eg vil hava kaffi.",
+      "th_reading": "เอ็ก วิล ฮา-วา คัฟ-ฟิ",
+      "th_meaning": "ฉันต้องการกาแฟ",
+      "text": "ลองเปลี่ยน vatn เป็น kaffi: Eg vil hava kaffi. — ฉันต้องการกาแฟ"
+    }
+  ],
+  "sources": [
+    "Sprotin — พจนานุกรมภาษาแฟโรสำหรับตรวจเพิ่มเติม",
+    "Glosbe — พจนานุกรมหลายภาษา",
+    "Málráðið — สภาภาษาแฟโร"
+  ],
+  "disclaimer": "เนื้อหาตามบทที่ 8 ที่ส่งวันที่ 14 พฤศจิกายน 2026 คำอ่านไทยเป็นการประมาณ; การรันต้นฉบับยังไม่ได้ตรวจคำศัพท์กับเว็บไซต์อ้างอิงโดยตรง",
+  "next": "บทที่ 9 — เวลาและการนัดหมาย",
+  "journal": [
+    "Eg vil hava vatn.",
+    "Kann eg fáa breyð?",
+    "Tað smakkar væl."
+  ],
+  "audio_practice": [
+    {
+      "fo": "Eg vil hava vatn.",
+      "file": "บท08_ประโยค1.mp3",
+      "role": "main"
+    },
+    {
+      "fo": "Kann eg fáa breyð?",
+      "file": "บท08_ประโยค2.mp3",
+      "role": "main"
+    },
+    {
+      "fo": "Tað smakkar væl.",
+      "file": "บท08_ประโยค3.mp3",
+      "role": "main"
+    },
+    {
+      "fo": "Eg fari heim nú.",
+      "file": "บท08_ประโยค4.mp3",
+      "role": "review"
+    },
+    {
+      "fo": "Eg vil hava kaffi.",
+      "file": "บท08_ประโยค5.mp3",
+      "role": "homework"
+    }
+  ],
+  "audio_settings": {
+    "provider": "VoisIT",
+    "voice": "elin",
+    "normal_speed": 1,
+    "slow_speed": 0.7,
+    "silence_seconds": 1,
+    "sample_rate": 24000,
+    "channels": 1,
+    "format": "mp3"
+  }
+}
